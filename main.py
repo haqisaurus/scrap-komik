@@ -8,7 +8,7 @@ import openpyxl
 import os
 from flask import Flask
 url_upload = 'https://kisahstory.my.id/api/upload-json'
-excel_file = 'daftar-komik.xlsx'
+excel_file = 'database.xlsx'
 
 def download_json_comic(url):
     data = {'uuid': str(uuid.uuid4())}
